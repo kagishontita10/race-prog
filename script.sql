@@ -53,4 +53,13 @@ values(1,1,'Tembisa fun run','community running event','10 october 2026','Tembis
 values(1,1,24.50,10.00), 
       (2,2,21.00,20.00), 
       (3,3,26.00,15.00); 
+
+insert into categories(categoryID,eventID,categoryType,age) 
+values(1,1,'5km',18), 
+      (2,1,'10km',18), 
+      (3,2,'half marathon',18), 
+      (4,2,'full marathon',18), 
+      (5,3,'20km cycling',18), 
+      (6,3,'40km cycling',18); 
+ 
  
