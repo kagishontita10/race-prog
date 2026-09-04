@@ -17,3 +17,7 @@ create table weather(weatherID int primary key,
 eventID int, foreign key (eventID) references events(eventID),  
 temperature decimal(5,2) null, rainProbability decimal(5,2)); 
  
+create table categories(categoryID int primary key, 
+eventID int not null, foreign key (eventID) references events(eventID),  
+categoryType varchar(50), age int not null); 
+ 
