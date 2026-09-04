@@ -49,4 +49,8 @@ values(1,'Thabang Nkosi','Thabang123', 'organiser', 'Thabang@gmailcom'),
 values(1,1,'Tembisa fun run','community running event','10 october 2026','Tembisa','Running'), 
       (2,2,'Soweto Marathon','Annual marathon event','15 november 2026','soweto','marathon'), 
       (3,1,'pretoria cycle race','road cycle event','5 December 2026','pretoria','cycling'); 
+ insert into weather(weatherID, eventID,temperature,rainProbability) 
+values(1,1,24.50,10.00), 
+      (2,2,21.00,20.00), 
+      (3,3,26.00,15.00); 
  
