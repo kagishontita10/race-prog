@@ -31,3 +31,7 @@ eventID int  not null, foreign key (eventID) references events(eventID),
 categoryID int not null , foreign key (categoryID) references categories(categoryID), 
 enrolmemtDate DATE NOT NULL, status varchar(20)); 
  
+create table Results(resultID int primary key,  
+enrolmentID int not null, foreign key (enrolmentID) references enrolments(enrolmentID), 
+finishTime time not null,position int, recordedeAT DATETIME DEFAULT  getdate()); 
+ 
