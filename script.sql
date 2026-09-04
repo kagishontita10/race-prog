@@ -25,3 +25,9 @@ create table eventRoute(routeID int primary key,
 eventID int  not null, foreign key (eventID) references events(eventID), 
 routeName varchar(50) not null, distance decimal(6,2) not null); 
  
+create table Enrolments(enrolmentID int primary key,  
+userID int not null, foreign key (userID) references users(userID), 
+eventID int  not null, foreign key (eventID) references events(eventID), 
+categoryID int not null , foreign key (categoryID) references categories(categoryID), 
+enrolmemtDate DATE NOT NULL, status varchar(20)); 
+ 
