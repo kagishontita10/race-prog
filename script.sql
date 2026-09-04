@@ -67,3 +67,8 @@ values(1,1,'tembisa community route',5.00),
       (2,2,'soweto marathon route', 42.20), 
       (3,3,'pretoria cycling route',40.00); 
  
+insert into Enrolments(enrolmentID,userID,eventID,categoryID,enrolmemtDate, status) 
+values(1,3,1,1,'2026-09-01','Active'), 
+      (2,4,1,2,'2026-09-02','Active'), 
+      (3,3,2,3,'2026-09-03','Active'), 
+      (4,4,3,5,'2026-09-04','Active'); 
