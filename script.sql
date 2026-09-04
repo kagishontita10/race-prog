@@ -72,3 +72,9 @@ values(1,3,1,1,'2026-09-01','Active'),
       (2,4,1,2,'2026-09-02','Active'), 
       (3,3,2,3,'2026-09-03','Active'), 
       (4,4,3,5,'2026-09-04','Active'); 
+
+insert into Results(resultID, enrolmentID, finishTime,position) 
+values(1,1,'00:32:15',5), 
+      (2,2,'00:58:20',12), 
+      (3,3,'01:45:30',8); 
+
