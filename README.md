@@ -91,7 +91,7 @@ YouTube Link (Unlisted): [https://youtu.be/YOUR_VIDEO_LINK_HERE]
 
 
 
-## 10. Submission Info
+7. Submission Info
 
 Module: PROG6212
   GitHub Repository: [https://github.com/kagishontita10/Race-POE]
