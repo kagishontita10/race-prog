@@ -86,7 +86,7 @@ An unlisted YouTube video walkthrough is submitted where I explain:
 - Endpoint plan choices
 - Live execution of the SQL script in SSMS
 
-YouTube Link (Unlisted): [https://youtu.be/YOUR_VIDEO_LINK_HERE]
+YouTube Link (Unlisted): [https://youtu.be/sCD0HtRoA1M?si=d4-omzj3FsQxWPp9]
 
 
 
@@ -94,5 +94,5 @@ YouTube Link (Unlisted): [https://youtu.be/YOUR_VIDEO_LINK_HERE]
 7. Submission Info
 
 Module: PROG6212
-  GitHub Repository: [https://github.com/kagishontita10/Race-POE]
+  GitHub Repository: [https://github.com/kagishontita10/race-prog]
   YouTube Video: [Link Above]
