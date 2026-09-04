@@ -33,7 +33,7 @@ The athlete / public user. Can:
 
  3. Database Design - ERD
 
-Entities (8 Entities):**
+Entities (8 Entities):
 1.  Users- Stores both Organisers and Participants with Role field
 2.  Events - Main event info (Title, Date, Location, Description)
 3.  Categories - Sub-races within an event (e.g., 10km, 21km) with distance and entry fee
