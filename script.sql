@@ -34,4 +34,9 @@ enrolmemtDate DATE NOT NULL, status varchar(20));
 create table Results(resultID int primary key,  
 enrolmentID int not null, foreign key (enrolmentID) references enrolments(enrolmentID), 
 finishTime time not null,position int, recordedeAT DATETIME DEFAULT  getdate()); 
- 
+insert into users(userID, fullName, password, role, email) 
+values(1,'Thabang Nkosi','Thabang123', 'organiser', 'Thabang@gmailcom'), 
+      (2,'Comi Nzola','Nzola@25','organiser','Nzola@gmail.com'), 
+      (3,'sama nkosi','sama456','participant','sama@gmail.com'), 
+      (4,'kamo Liza','kamo134','participant','kamoL@gmail.com'); 
+  
