@@ -61,9 +61,9 @@ The script:
 - Creates database `Race`
 - Contains `CREATE TABLE` statements for all 8 entities with PRIMARY KEY, FOREIGN KEY, NOT NULL, UNIQUE, and DEFAULT constraints
 - Contains `INSERT` statements with realistic sample data:
-    - 2 Organisers (Lerato Dlamini, Pieter Botha)
-    - 3 Participants (Jabu, Sarah, Ahmed)
-    - 3 Events (Soweto Marathon, Cape Town Cycle Tour Community Ride, Comrades Qualifier Park Run)
+    - 2 Organisers (Thabang Nkosi, comi nzola)
+    - 2 Participants (sama, kamo)
+    - 3 Events (Tembisa fun run, soweto marathon , pretoria cycle race)
     - Categories for each event
     - Sample Enrolments and Results
 - The script is idempotent and runs without errors on a clean SQL Server instance (Tested in SSMS 20)
@@ -72,7 +72,7 @@ The script:
 
 6. API Endpoint Plan
 
-A full endpoint plan covering Authentication, User Profile, Events, Categories, Enrolments, and Results is in `/docs/EndpointPlan.pdf`
+A full endpoint plan covering Authentication, User Profile, Events, Categories, Enrolments
 
 Summary table format: HTTP Method | Route | Description | Role Required | Request Body | Expected Response
 
