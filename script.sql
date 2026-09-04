@@ -77,4 +77,4 @@ insert into Results(resultID, enrolmentID, finishTime,position)
 values(1,1,'00:32:15',5), 
       (2,2,'00:58:20',12), 
       (3,3,'01:45:30',8); 
-
+ 
