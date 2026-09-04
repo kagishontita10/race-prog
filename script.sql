@@ -62,4 +62,8 @@ values(1,1,'5km',18),
       (5,3,'20km cycling',18), 
       (6,3,'40km cycling',18); 
  
+ insert into eventRoute(routeID,eventID, routeName, distance) 
+values(1,1,'tembisa community route',5.00), 
+      (2,2,'soweto marathon route', 42.20), 
+      (3,3,'pretoria cycling route',40.00); 
  
