@@ -45,4 +45,8 @@ values(1,'Thabang Nkosi','Thabang123', 'organiser', 'Thabang@gmailcom'),
       (2,'Comi Nzola','Nzola@25','organiser','Nzola@gmail.com'), 
       (3,'sama nkosi','sama456','participant','sama@gmail.com'), 
       (4,'kamo Liza','kamo134','participant','kamoL@gmail.com'); 
+ insert into Events(eventID, userID, EventName, description, EventDate, location, eventType) 
+values(1,1,'Tembisa fun run','community running event','10 october 2026','Tembisa','Running'), 
+      (2,2,'Soweto Marathon','Annual marathon event','15 november 2026','soweto','marathon'), 
+      (3,1,'pretoria cycle race','road cycle event','5 December 2026','pretoria','cycling'); 
  
