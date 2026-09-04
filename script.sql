@@ -13,3 +13,7 @@ EventName varchar(40) not null,
 description varchar(30),EventDate date not null, 
 location varchar(50) not null,eventType varchar(50) not null ); 
  
+create table weather(weatherID int primary key, 
+eventID int, foreign key (eventID) references events(eventID),  
+temperature decimal(5,2) null, rainProbability decimal(5,2)); 
+ 
